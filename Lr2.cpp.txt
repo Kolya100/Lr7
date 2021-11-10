@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+int main()
+{
+    float r = 0;
+    float m = 7.35*pow(10,22);
+    float g1 = 6.67*pow(10,-11);
+    int r1 = 1735;
+    cout <<"vvedi r= ";
+    cin >> r;
+    float g2 = (m*g1)/((r1+r)*(r1+r));
+    cout <<"g2="<<g2;
+    return 0;
+}
