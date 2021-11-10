@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    float r = 0;
-    float m = 7.35*pow(10,22);
+    float r = 500;
+    float m = 300;
     float g1 = 6.67*pow(10,-11);
     int r1 = 1735;
     cout <<"vvedi r= ";
@@ -13,4 +13,5 @@ int main()
     float g2 = (m*g1)/((r1+r)*(r1+r));
     cout <<"g2="<<g2;
     return 0;
+    //коментар
 }
